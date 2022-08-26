@@ -10,8 +10,7 @@
 
 - Chaining and redirection
 
-  > ls ; cd
-  > ls -la > output.txt
+  > ls ; cd ; ls -la > output.txt
 
 - Custom pipe to pre-append output to existing files
 
@@ -19,7 +18,7 @@
 
 - Batch mode for large job queue processing
 
-  > Supply ./myshell with text file to parse commands
+  > ./myshell large_input.txt
 
 ## How to Run
 
